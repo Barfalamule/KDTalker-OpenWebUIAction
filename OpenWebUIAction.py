@@ -88,7 +88,7 @@ class Action:
                 },
             )
 
-            if response.status_code in [200, 201, 204]:
+            if response.status_code in [200, 202, 204]:
                 if __event_emitter__:
                     await __event_emitter__(
                         self.status_object(
