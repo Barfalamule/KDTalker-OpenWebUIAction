@@ -1,6 +1,6 @@
 from flask import Flask, request
 import threading
-import test4  # Import your existing script as a module
+import KDtalkerGradio  # Import your existing script as a module
 
 app = Flask(__name__)
 
@@ -10,7 +10,7 @@ def webhook():
         print("Webhook received - Starting avatar generation")
         
         # Run the main function in a separate thread to avoid blocking
-        thread = threading.Thread(target=test4.main)
+        thread = threading.Thread(target=KDtalkerGradio.main)
         thread.start()
         
         return "Video generation started", 202
