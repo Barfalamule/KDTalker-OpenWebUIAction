@@ -26,7 +26,7 @@ http://localhost:7851/v1  # AllTalk server with F5-TTS
 ```
 
 ### 💡 Add Functionality
-- Create new function in Admin Panel using:
+- Create new function named KDTalker in Admin Panel using:
 ```python
 OpenWebUIAction.py  # Action code implementation
 ```
