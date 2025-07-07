@@ -38,7 +38,7 @@ def open_video_automatically(file_path):
 def main():
     # Configuration - Modify these paths to match your setup
     source_image_path = r'avatar.jpg'
-    audio_output_dir = r'd:\pinokio\api\alltalk-tts.git\app\outputs'
+    audio_output_dir = r'c:\pinokio\api\alltalk-tts.git\app\outputs'
     
     try:
         # Initialize client with the correct endpoint URL
