@@ -59,10 +59,8 @@ python server.py  # Must be run from same directory
 ## ▶️ Usage Instructions
 
 1. Select `NewModel` in chat interface
-2. After receiving LLM response, click **KDTalker** button under message to:
-   - Generate video avatar using your configured setup
-   - Watch real-time talking head animation
-
+2. After receiving LLM response, click **KDTalker** button under message to generate video avatar using your configured setup
+ 
 ---
 
 > 💡 Tip: Make sure all services (Open WebUI, AllTalk-TTSv2, KDTalker) are running in the background before attempting model usage.
