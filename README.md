@@ -36,7 +36,7 @@ OpenWebUIAction.py  # Action code implementation
 1. **Prepare Files**
    - Download `KDtalkerGradio.py`
    - Place avatar image in same directory
-   - Update audio file path to your AllTalkTTS temp directory (e.g., `pinokio/temp/`)
+   - Update audio file path to your AllTalkTTS temp directory (e.g., `c:\pinokio\api\alltalk-tts.git\app\outputs`)
 
 2. **Verify Functionality**  
    ✅ Run script with:  
